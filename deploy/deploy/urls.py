@@ -18,7 +18,6 @@ from django.urls import path, include
 from rest_framework.urlpatterns import format_suffix_patterns
 
 #from lstm import views
-print(" HERE WE ARE IN URLSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS")
 urlpatterns = [
     path('admin/', admin.site.urls),
     # Adding a new URL
