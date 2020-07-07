@@ -6,7 +6,7 @@ from .forms import ContactForm
 from .model_functions import predict, model
 
 def call_model(request):
-    print('VIEWSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS')
+    
     response = 'Please, write your movie review.'
     sentiment = 'Note that the estimation might be more precise if the review has more than one sentence.'
     
