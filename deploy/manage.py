@@ -3,7 +3,6 @@
 import os
 import sys
 
-print('MANAGEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE')
 def main():
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'deploy.settings')
     try:
